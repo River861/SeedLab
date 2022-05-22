@@ -1,0 +1,4 @@
+foo='() { :; }; echo vulerable;'
+export foo
+bash_shellshock
+

